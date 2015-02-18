@@ -2,8 +2,8 @@
 
 var server = require('./lib/httpServer.js');
 
-server.addResource("employee");
-server.addResource("student");
+server.addResource("company");
+server.addResource("school");
 
 // above enables:
 // get to /employees/id
